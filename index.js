@@ -18,10 +18,16 @@ const licenses = [
         link: 'https://opensource.org/licenses/MIT'
     },
     {
-        name: 'Mozilla Public License ',
+        name: 'Mozilla Public License',
         notice: 'Licensed under the Mozilla Public License',
         badge: '[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)',
         link: 'https://opensource.org/licenses/MPL-2.0'
+    },
+    {
+        name: 'Eclipse',
+        notice: 'Licensed under the Eclipse Public License 1.0',
+        badge: '[![License](https://img.shields.io/badge/License-EPL%201.0-red.svg)](https://opensource.org/licenses/EPL-1.0)',
+        link: 'https://opensource.org/licenses/EPL-1.0'
     }
 ]
 
@@ -29,7 +35,7 @@ const licenses = [
 const fs  = require('fs');
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown');
-
+const readMeFile = 'README-test.md';
 const readMeLines = [];
 
 // TODO: Create an array of questions for user input
@@ -77,32 +83,29 @@ const questions = [
 {
     type: 'list',
     name: 'license',
-    message: 'Choose a license - enter MIT or Apache',
+    message: 'Choose a license',
     choices: licenceChoices()
 }
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, (err) => {
+        if (err) {
+            console.log(err);
+        } else {
+            console.log('README file saved');
+        }
+    });
+}
 
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions)
     .then(answers => {
         const data = createMarkdownData(answers);
-        console.log(data);
         const markDown = generateMarkdown(data);
-        writeMarkDownToFile(markDown);
-    });
-}
-
-function writeMarkDownToFile(txt) {
-    fs.writeFile('README-test.md', txt, (err) => {
-        if (err) {
-            console.log(err);
-        } else {
-            console.log('README file saved');
-        }
+        writeToFile(readMeFile, markDown);
     });
 }
 

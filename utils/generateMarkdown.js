@@ -34,11 +34,17 @@ ${data.usage}
 ## Contributions
 ${data.contribution}
 
-## Badges
+## License
 ${renderLicenseSection(data.license)}
+For more information on this license, visit: ${renderLicenseLink(data.license)}
 
-##Tests
-${data.tests}
+## Tests
+${data.test}
+
+## Questions
+For any questions on installation and usage, send me an email on ${data.email} or visit my github page at https://www.github.com/${data.githubusername}
+
+
 `;
 }
 

@@ -1,7 +1,7 @@
-# fds
-[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+# Weather Dashboard
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 ## Description
-fdsf
+This project presents a web page which accepts the name of a city (e. g. 'London') and displays the current day's weather statistics and the  next five day's weather forecast for the city in different  sections of the page. Previous search terms are  
     
 ## Table of Contents
 1. [Installation](#Installation)
@@ -12,22 +12,22 @@ fdsf
 6. [Questions](#Questions)
 
 ## Installation
-sdfd
+Testing
 
 ## Usage
-dsfd
+
 
 ## Contributions
-sdfds
+
 
 ## License
-Licensed under the Mozilla Public License
-For more information on this license, visit: https://opensource.org/licenses/MPL-2.0
+Licensed under the Apache License, Version 2.0
+For more information on this license, visit: https://opensource.org/licenses/Apache-2.0
 
 ## Tests
-dfdssdfdsf
+ff
 
 ## Questions
-For any questions on installation and usage, send me an email on d or visit my github page at https://www.github.com/adc
+For any questions on installation and usage, send me an email on dodmhg@gmail.com or visit my github page at https://www.github.com/TemyTemy
 
 

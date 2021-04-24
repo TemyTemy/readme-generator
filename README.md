@@ -1,4 +1,4 @@
-# readme-generator
+# README Generator
 A command line application that dynamically generates a professional README.me file based on user's input.
 
 **Technologies Used: Node.js, JavaScript**

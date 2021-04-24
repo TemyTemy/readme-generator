@@ -35,5 +35,5 @@ A command line application that dynamically generates a professional README.me f
 
 **User Journey Flow**
 
-![alt text](https://github.com/TemyTemy/readme-generator/blob/main/Assets/ReadMe%20Generator%20Video.mp4) 
+![alt text](https://github.com/TemyTemy/readme-generator/blob/main/Assets/ReadME%20Generator%20GIF.gif) 
 

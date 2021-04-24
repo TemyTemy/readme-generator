@@ -1,1 +1,25 @@
 # readme-generator
+A command line application that dynamically generates a professional README.me file based on user's input.
+
+**Technologies Used: Node.js, JavaScript**
+
+## Features
+
+- The user can start the application from the command line by typing node index.js
+- The application will prompt the user for the following information:
+  - Github user name
+  - Github email
+  - Project title
+  - Project description
+  - Installation instructions
+  - Usage information
+  - License option
+  - Contribution guidelines and
+  - Test instructions
+- These details are used to generate sections for project title, description, installation instruction, usage information, contribution guidelines and test instructions.
+- A license badge is added to the top of the document
+- A license notice is added to the license section
+- A question section is included in the document using the user's email and github username information
+- A table of content is added to navigate to the different sections
+
+## Screenshots

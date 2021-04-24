@@ -24,17 +24,33 @@ A command line application that dynamically generates a professional README.me f
 
 ## Screenshots
 
+
+
 **Image 1**  
 
 ![alt text](https://github.com/TemyTemy/readme-generator/blob/main/Assets/Screen%201.PNG)
 
+  
+  
   
 **Image 2**
 
 ![alt text](https://github.com/TemyTemy/readme-generator/blob/main/Assets/Screen%202.PNG)  
 
 
+
 **User Journey Flow**
 
 ![alt text](https://github.com/TemyTemy/readme-generator/blob/main/Assets/ReadME%20Generator%20GIF.gif) 
+
+
+## Links on Github
+
+- The source code repository is available at this link: https://github.com/TemyTemy/readme-generator
+- The home page to the website is available at this link: https://drive.google.com/file/d/1Fc2f5cGab8rJG0fT7vcJxR-4H3LQJ7Eg/view
+
+
+# License
+MIT
+
 

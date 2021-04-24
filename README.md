@@ -47,7 +47,7 @@ A command line application that dynamically generates a professional README.me f
 
 ![alt text](https://github.com/TemyTemy/readme-generator/blob/main/Assets/ReadME%20Generator%20GIF.gif) 
 
-
+![caption]((https://github.com/TemyTemy/readme-generator/blob/main/Assets/ReadME%20Generator%20GIF.gif))
 
 ## Links on Github
 

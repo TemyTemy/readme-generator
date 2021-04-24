@@ -23,3 +23,7 @@ A command line application that dynamically generates a professional README.me f
 - A table of content is added to navigate to the different sections
 
 ## Screenshots
+
+**Image 1**  
+
+  ![alt text](https://github.com/TemyTemy/weather-dashboard/blob/master/assets/screenshot1.PNG)

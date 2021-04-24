@@ -124,7 +124,7 @@ function createMarkdownData(answers) {
 
 function licenceChoices() {
     const list = [];
-    licenses.forEach((l) => list.push(l.name))
+    licenses.forEach((license) => list.push(license.name))
     return list;
 }
 

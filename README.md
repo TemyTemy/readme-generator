@@ -35,9 +35,11 @@ A command line application that dynamically generates a professional README.me f
   
   
   
+  
 **Image 2**
 
 ![alt text](https://github.com/TemyTemy/readme-generator/blob/main/Assets/Screen%202.PNG)  
+
 
 
 

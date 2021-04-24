@@ -129,7 +129,7 @@ function licenceChoices() {
 }
 
 function getLicenceDetails(choice) {
-    return licenses.find((x) => x.name === choice);
+    return licenses.find((license) => license.name === choice);
 }
 
 // Function call to initialize app

@@ -26,4 +26,4 @@ A command line application that dynamically generates a professional README.me f
 
 **Image 1**  
 
-  ![alt text](https://github.com/TemyTemy/weather-dashboard/blob/master/assets/screenshot1.PNG)
+  ![alt text](https://github.com/TemyTemy/readme-generator/blob/main/Assets/Screen%201.PNG)
